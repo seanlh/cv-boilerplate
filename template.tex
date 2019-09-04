@@ -17,7 +17,7 @@
 \setlength{\columnsep}{-3.5cm}
 
 % Uncomment to suppress page numbers
-% \pagenumbering{gobble}
+\pagenumbering{gobble}
 
 % LANGUAGE
 %--------------------------------
@@ -84,7 +84,7 @@ $for(address)$
 $address$\\
 $endfor$
 
-\vspace{-10pt}
+\vspace{-6pt}
 
 $phone$\\
 \href{mailto:$email$}{$email$}\\
@@ -99,31 +99,28 @@ $endfor$
 \end{multicols}
 $endif$
 
-\vspace{30pt}
+% \vspace{30pt}
 
 $if(intro)$
 $intro$
 $endif$
 
-\subsection*{Areas of Interest}
-$if(skills)$
-\begin{itemize}
-    $for(skills)$
-      \item $skills$
-    $endfor$
-\end{itemize}
-$endif$
+% \vspace{25pt}
 
-% \vfill
-
-\vspace{25pt}
-
-\section*{Previous Experience}
+\section*{Work Experience}
 \noindent
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
 \emph{$experience.job$}\\
 $experience.city$\\[.2cm]
+$if(experience.points)$
+\vspace{-20pt}
+\begin{itemize}
+    $for(experience.points)$
+      \item $experience.points$
+    $endfor$
+\end{itemize}
+$endif$
 $endfor$
 
 $if(education)$

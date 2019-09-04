@@ -1,54 +1,56 @@
 ---
 # Personal details
-name: Friedrich Nietzsche
+name: Sean Hernandez
 address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-phone: "+49 03643 545400"
-email: friedrich@thevoid.de
+- 1650 N Mills Ave
+- Apt 119
+- Orlando, FL 32803
+phone: "(954) 740-9844"
+email: sean.lh@icloud.com
 # Insert URLs without http://
 urls:
-- wki.pe/friedrich_nietzsche
-- twitter.com/tinynietzsche
+- seanlh.com
+- github.com/seanlh
 
 # Sections
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
-
-skills:
-- Aesthetics, Ethics, Metaphysics, Nihilism
-- Psychology, Ontology, Poetry, Value theory
-- Voluntarism, Tragedy, Fact–value distinction
-- Anti-foundationalism, Philosophy of history
-
 experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philisoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußischen Artillerie
-  job: Kanonier
-  city: Naumburg
+- years: 2018--2019
+  employer: NBC Sports Group
+  job: Software Engineer, Full Stack and Mobile/OTT
+  city: Orlando
+  points:
+  - Managed application lifecycle for GOLFPASS Mobile/OTT (iOS, Android, tvOS, Roku) apps as well as implemented in-app purchasing, data analytics, and crash reporting.
+  - Designed and developed integrations (including API endpoints, locked content functionality, and user authentication) between GOLFPASS CMS, GOLFPASS Mobile/OTT apps, GolfNow, GolfID, and Revolution Golf.
+  - Leveraged bleeding edge cloud hosting solutions and web technologies to improve and expedite application delivery and facilitate over-the-air updates/hotfixes.
+  - Worked with an Agile team to analyze tasks, plan sprints, and deliver products on schedule using issue-tracking tools such as Jira, Trello, and GitHub.
+- years: 2018
+  employer: SAIC
+  job: Software Engineer Intern
+  city: Orlando
+  points:
+  - Worked on procurement modernization project with 1,000+ expected users and 65,000+ records using ASP.NET Core, Entity Framework, Domain-Driven Design, Inversion of Control, and an MVC architecture.
+  - Created configurable attachment service façade to handle asynchronous file upload and download to Documentum via REST API.
+  - Developed registration service with email and token validation to provision new suppliers and source supplier data for import.
+  - Designed and developed user interfaces to display and edit information and workflows on various site areas.
+- years: 2018
+  employer: University of Central Florida
+  job: Techranger (Software Developer)
+  city: Orlando
+  points:
+  - Worked on UDOIT, an LTI integration (used by over 50 institutions worldwide) built using PHP and SQL that identifies accessibility issues in online course content.
+  - Dockerized UDOIT to deploy web server, application services, and database with Docker-Compose for rapid development and application isolation.
+  - Developed administrative panel for reporting, and refreshing user tokens.
 
 education:
-- year: 1867
-  subject: Philology
-  institute: Leipzig Universität
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
+- year: 2014--2019
+  subject: B.S. Computer Science
+  institute: University of Central Florida
+  city: Orlando
 
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
-lang: English
-geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+lang: en-US
+geometry: letterpaper, left=35mm, right=35mm, top=20mm, bottom=17mm
 ---
