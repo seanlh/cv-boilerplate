@@ -34,7 +34,13 @@ $endif$
 \usepackage{xltxtra}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+\setmainfont{$mainfont$}[
+  Ligatures={Common},
+  Numbers={OldStyle},
+  BoldFont = EBGaramond-Bold,
+  ItalicFont = EBGaramond08-Italic,
+  SmallCapsFont = EBGaramondSC08-Regular
+]
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 
@@ -76,43 +82,32 @@ $endif$
 
 {\LARGE $name$}\\[.2cm]
 
-$if(urls)$
 \begin{multicols}{2}
-$endif$
 
+\columnbreak
 $for(address)$
 $address$\\
 $endfor$
-
-\vspace{-6pt}
-
-$phone$\\
-\href{mailto:$email$}{$email$}\\
-
-
-$if(urls)$
-\columnbreak
-
 $for(urls)$
 \href{http://$urls$}{$urls$}\\
 $endfor$
-\end{multicols}
-$endif$
 
-% \vspace{30pt}
+\columnbreak
+$phone$\\
+\href{mailto:$email$}{$email$}\\
+\end{multicols}
 
 $if(intro)$
 $intro$
 $endif$
 
-% \vspace{25pt}
+\vspace{-20pt}
 
 \section*{Work Experience}
 \noindent
 $for(experience)$
-\note{$experience.years$}\textsc{$experience.employer$}\\
-\emph{$experience.job$}\\
-$experience.city$\\[.2cm]
+\note{$experience.location$}\textsc{$experience.employer$}\\
+\note{$experience.years$}\emph{$experience.job$}\\$if(experience.points)$[.2cm]$else$[-.4cm]$endif$
 $if(experience.points)$
 \vspace{-20pt}
 \begin{itemize}
@@ -127,8 +122,8 @@ $if(education)$
 \section*{Education}
 \noindent
 $for(education)$
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+\note{$education.location$}\textsc{$education.institute$}\\
+\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\[.2cm]
 $endfor$
 $endif$
 
