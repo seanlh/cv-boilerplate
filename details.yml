@@ -35,9 +35,8 @@ experience:
     location: Orlando, FL
     points:
       - Worked on procurement modernization project with 1,000+ expected users and 65,000+ records using ASP.NET Core, Entity Framework, Domain-Driven Design, Inversion of Control, and an MVC architecture.
-      - Implemented a Documentum (a content management platform) integration and a file-upload module using the service façade pattern.
+      - Integrated Documentum and a file-upload module using the service façade pattern.
       - Developed registration service with email and token validation to provision new suppliers and source supplier data for import.
-      - Designed and developed models, views, and controllers for workflows and reporting on various site areas/domains.
   - years: Feb 2018--May 2018
     employer: University of Central Florida
     job: Techranger (Software Developer)
@@ -45,7 +44,6 @@ experience:
     points:
       - Worked on UDOIT, an LTI integration (used by over 50 institutions worldwide) built using PHP and SQL that identifies accessibility issues in online course content.
       - Dockerized UDOIT to deploy web server, application services, and database with Docker-Compose for rapid development and application isolation.
-      - Developed administrative panel for reporting, and refreshing user tokens.
 
 education:
   - year: Aug 2014--Dec 2019
