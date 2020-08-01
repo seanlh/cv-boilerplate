@@ -43,7 +43,6 @@ experience:
     location: Orlando, FL
     points:
       - Worked on UDOIT, an LTI integration (used by over 50 institutions worldwide) built using PHP and SQL that identifies accessibility issues in online course content.
-      - Dockerized UDOIT to deploy web server, application services, and database with Docker-Compose for rapid development and application isolation.
 
 education:
   - year: Aug 2014--Dec 2019
