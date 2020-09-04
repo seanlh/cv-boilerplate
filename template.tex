@@ -134,4 +134,13 @@ $for(languages)$
 $endfor$
 $endif$
 
+$if(skills)$
+\subsection*{Skills}
+\begin{itemize}
+    $for(skills)$
+      \item $skills$
+    $endfor$
+\end{itemize}
+$endif$
+
 \end{document}
