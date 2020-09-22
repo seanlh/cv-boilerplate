@@ -80,7 +80,7 @@ $endif$
 %--------------------------------
 \begin{document}
 
-{\LARGE $name$}\\[.2cm]
+{\LARGE $name$}
 
 \begin{multicols}{2}
 
@@ -102,6 +102,15 @@ $intro$
 $endif$
 
 \vspace{-20pt}
+
+$if(skills)$
+\subsection*{Skills}
+\begin{itemize}
+    $for(skills)$
+      \item $skills$
+    $endfor$
+\end{itemize}
+$endif$
 
 \section*{Work Experience}
 \noindent
@@ -132,15 +141,6 @@ $if(languages)$
 $for(languages)$
 \emph{$languages.language$} ($languages.proficiency$)\\
 $endfor$
-$endif$
-
-$if(skills)$
-\subsection*{Skills}
-\begin{itemize}
-    $for(skills)$
-      \item $skills$
-    $endfor$
-\end{itemize}
 $endif$
 
 \end{document}
