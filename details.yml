@@ -11,10 +11,9 @@ urls:
 # Sections
 
 skills:
-  - Libraries/Frameworks--React, React Native, Bootstrap, TVMLKit JS
-  - Languages--TypeScript, JavaScript, Java, C#, BrightScript, HTML, CSS
-  - Technologies--Firebase, Redux, Axios, Git, webpack, CSS Preprocessors (SASS/LESS), Handlebars, AJAX
-
+  - Libraries/Frameworks--React Native / React, TVMLKit JS, Material-UI, Bootstrap
+  - Languages--TypeScript / JavaScript, Java, C#, BrightScript, HTML, CSS
+  - Technologies--Firebase, Amazon Web Services, Redux, GitHub Actions
 experience:
   - years: Sep 2019--Present
     employer: Comcast NBCUniversal
@@ -23,14 +22,12 @@ experience:
   - years: Dec 2018--Sep 2019
     job: Software Engineer I
     points:
-      - Worked on the GOLFPASS Mobile, Over-the-Top (OTT), and Web platforms.
-      - Implemented In-App Purchasing and redesigned the native apps to improve conversion, increasing sales by ~$15,000/month and the App Store rating to 4.8+ stars.
-      - Raised the GOLFPASS App Store Rating from 2.8 stars to 4.8 stars.
-      - Developed RESTful features on the web platform and integrated them on the native apps.
-      - Designed and implemented reusable UI components.
-      - Converted the GOLFPASS Mobile app to TypeScript and implemented Redux.
-      - Managed application releases, over-the-air updates, and release scheduling.
-      - Worked on an agile team to provide time estimates and technical input for roadmapping.
+      - Worked on the GolfPass iOS, Android, tvOS, Roku, FireTV, and Web platforms.
+      - Implemented in-app purchasing flow which increased sales by ~$15,000/month.
+      - Overhauled UI/UX which raised the app store ratings from 2.8 stars to 4.8 stars.
+      - Developed and planned end-to-end features (web service endpoints, app services, app state, and app views) such as Chromecast, session handling, favorites, live-streaming, and site localization preferences.
+      - Implemented type safety and central state in the app using TypeScript and Redux.
+      - Handled application lifecycle management including participating in product roadmapping meetings, sprint planning, release scheduling, and over-the-air-updates.
       - Performed on-call duties and monitored system stability.
   - years: May 2018--Dec 2018
     employer: SAIC
