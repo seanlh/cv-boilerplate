@@ -13,7 +13,7 @@ urls:
 skills:
   - Libraries/Frameworks--React Native / React, TVMLKit JS, Material-UI, Bootstrap
   - Languages--TypeScript / JavaScript, Java, C#, BrightScript, HTML, CSS
-  - Technologies--Firebase, Amazon Web Services, Redux, GitHub Actions
+  - Technologies--Firebase, GitHub Actions, Redux, Amazon Web Services
 experience:
   - years: Sep 2019--Present
     employer: Comcast NBCUniversal
