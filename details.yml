@@ -11,8 +11,8 @@ urls:
 # Sections
 
 skills:
-  - Libraries/Frameworks--React Native / React, TVMLKit JS, Material-UI, Bootstrap
-  - Languages--TypeScript / JavaScript, Java, C#, BrightScript, HTML, CSS
+  - Libraries/Frameworks--React Native, React, TVMLKit JS, Material-UI, Bootstrap
+  - Languages--TypeScript, JavaScript, Java, C#, BrightScript, HTML, CSS
   - Technologies--Firebase, GitHub Actions, Redux, Amazon Web Services
 experience:
   - years: Sep 2019--Present
